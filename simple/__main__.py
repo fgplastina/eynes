@@ -14,7 +14,10 @@ def order_data_by_age(data:list):
     print(f'Oldest person in list {new_list[0]}')
     return new_list
 
-order_data_by_age(get_data())
+
+def main():
+    order_data_by_age(get_data())
 
 
-
+if __name__ == "__main__":
+    main()
