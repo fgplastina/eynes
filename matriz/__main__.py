@@ -57,7 +57,7 @@ def _show_matrix(matrix):
     print("\n")
 
 
-def main():
+def seacher():
     """
     Runtime principal para encontrar secuencias consecutivas en la matriz
     """
@@ -77,6 +77,8 @@ def main():
     if result_by_column:
         print(result_by_column)
 
+def main():
+    seacher()
 
 if __name__ == "__main__":
     main()
